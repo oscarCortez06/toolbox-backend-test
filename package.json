@@ -1,0 +1,21 @@
+{
+  "name": "toolbox-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "./node_modules/.bin/mocha 'tests/**/*.js' --recursive"
+  },
+  "author": "Oscar Cortez",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.5.2",
+    "standard": "^17.1.0"
+  }
+}
